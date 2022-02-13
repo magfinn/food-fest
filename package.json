@@ -1,20 +1,31 @@
 {
-  "name": "food-festival",
+  "name": "food-fest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magfinn/food-festival.git"
+    "url": "git+https://github.com/magfinn/food-fest.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/magfinn/food-festival/issues"
+    "url": "https://github.com/magfinn/food-fest/issues"
   },
-  "homepage": "https://github.com/magfinn/food-festival#readme"
+  "homepage": "https://github.com/magfinn/food-fest#readme",
+  "devDependencies": {
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.0"
+  }
 }
